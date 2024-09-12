@@ -346,44 +346,6 @@ const Campaigns = ({ walletAddress }) => {
           <span className="ml-2 text-lg">Loading...</span>
         </div>
       )}
-      {campaigns && campaigns.length === 0 && (
-    <div
-      style={{
-        width: "100%",
-        maxWidth: "800px",
-        textAlign: "center",
-        color: "#fff",
-      }}
-    >
-      <p>No campaigns created yet.</p>
-    </div>
-  )}
-
-  {campaigns && campaigns.length === 1 && campaigns[0].admin.toString() === walletAddress && activeTab === "otherCampaigns" && (
-    <div
-      style={{
-        width: "100%",
-        maxWidth: "800px",
-        textAlign: "center",
-        color: "#fff",
-      }}
-    >
-      <p>No campaigns created by others.</p>
-    </div>
-  )}
-
-  {campaigns && campaigns.length === 1 && campaigns[0].admin.toString() !== walletAddress && activeTab === "ownCampaigns" && (
-    <div
-      style={{
-        width: "100%",
-        maxWidth: "800px",
-        textAlign: "center",
-        color: "#fff",
-      }}
-    >
-      <p>No campaigns created yet.</p>
-    </div>
-  )}
 
       {campaigns &&
         (campaigns.length > 0 &&
