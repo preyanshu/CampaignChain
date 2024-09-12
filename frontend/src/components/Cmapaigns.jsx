@@ -386,7 +386,7 @@ const Campaigns = ({ walletAddress }) => {
   )}
 
       {campaigns &&
-        (campaigns.length > 0 ?
+        (campaigns.length > 0 &&
          campaigns
           .filter((campaign) => {
             return isOwnCampaigns
