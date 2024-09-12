@@ -347,7 +347,7 @@ const Campaigns = ({ walletAddress }) => {
         </div>
       )}
       {campaigns &&
-      campaigns.length === 1 && isCreatedCampaign && activeTab == "otherCampaigns" ? (<div
+      campaigns.length === 1 && campaigns[0].admin.toString() === walletAddress && !isOwnCampaigns ? (<div
         style={{
           width: "100%",
           maxWidth: "800px",
