@@ -8,7 +8,7 @@ The Campaign Governance Platform revolutionizes how community-driven initiatives
 
 ### Demo Video
 
-Watch the demo video to see the platform in action: [Demo Video](https://link-to-demo-video.com)
+Watch the demo video to see the platform in action: [Demo Video](https://youtu.be/MkiQO4Zy2qs)
 
 ### Canvas Link
 
