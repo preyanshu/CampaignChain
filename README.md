@@ -1,5 +1,8 @@
 # Campaign Governance Platform
 
+![image](https://github.com/user-attachments/assets/2383e89f-166c-4d52-8cc4-e1f1ce9a15b5)
+
+
 ![_a70bfe24-9880-47e7-b0dd-e1287257c645.jpg](https://cdn.dorahacks.io/static/files/191e2926320ac7b2856cdb14e60b2e69.jpg)
 
 ## Introduction
